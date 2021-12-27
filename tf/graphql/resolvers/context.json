@@ -1,0 +1,18 @@
+{
+  "arguments": {},
+  "result": {
+    "headers": {
+      "Content-Length": "720",
+      "Content-Type": "application/xml",
+      "Date": "Sat, 13 Mar 2021 02:05:54 GMT",
+      "Timestamp": "Sat, 13 Mar 2021 02:05:55 GMT",
+      "x-amz-apigw-id": "cGmgTHAWSwMFRGw=",
+      "x-amzn-RequestId": "5153a85f-26b4-415f-8e41-c18bc19a3af1",
+      "X-Amzn-Trace-Id": "Root=1-604c1e01-44b0febf215697460eb00889;Sampled=0"
+    },
+    "statusCode": 200,
+    "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ListBucketResult xmlns=\"http://s3.amazonaws.com/doc/2006-03-01/\"><Name>opal-policy-dev</Name><Prefix>100368421/bundles/</Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><Delimiter>/</Delimiter><IsTruncated>false</IsTruncated><Contents><Key>100368421/bundles/</Key><LastModified>2021-03-06T06:57:41.000Z</LastModified><ETag>&quot;d41d8cd98f00b204e9800998ecf8427e&quot;</ETag><Size>0</Size><StorageClass>STANDARD</StorageClass></Contents><Contents><Key>100368421/bundles/bundle.tar.gz</Key><LastModified>2021-03-06T07:01:34.000Z</LastModified><ETag>&quot;74fe7ab38484b807cb3244c0f17f9c54&quot;</ETag><Size>392</Size><StorageClass>STANDARD</StorageClass></Contents></ListBucketResult>"
+  },
+  "stash": {},
+  "outErrors": []
+}

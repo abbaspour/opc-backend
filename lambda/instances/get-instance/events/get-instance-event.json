@@ -1,0 +1,65 @@
+{
+  "version": "2.0",
+  "routeKey": "GET /v1/instances/{proxy+}",
+  "rawPath": "/v1/instances/opa-100368421",
+  "rawQueryString": "",
+  "headers": {
+    "accept": "application/json",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "en-US,en;q=0.5",
+    "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik8xN1c1MVQ2V1BGaUhLMUU4R3ZzcyJ9.eyJodHRwczovL29wYWwubnMvYWNjb3VudF9ubyI6MTAwMzY4NDIxLCJpc3MiOiJodHRwczovL29wYWwtZGV2LmF1LmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw1ZmYxNzAzYjkyNzc2MDAwNzEwZGI2NWQiLCJhdWQiOlsiZGV2Lm9wYWwuYXBpIiwiaHR0cHM6Ly9vcGFsLWRldi5hdS5hdXRoMC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNjE4MjcxMTA0LCJleHAiOjE2MTgyNzk3MDQsImF6cCI6ImJya1lkZnhmTGsxelVEbmVBZXZYeVpKMG1SNkFpMmJIIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBhY2NvdW50OmFkbWluIn0.uQoECGyPoEJdwRwxfN48f6Z-LcubhAc1WvfvpFKmcIsTIsb9kMZAsfgfzJaaTwUZbEjsMHulCWRdV7b_kHqOINpPTanGWIOHZi3A9ivsUZrb5KhgMVDbnIeZ44rXe1MqT6t5onnTL_SpDR3txknrRWM9x_HAqiL6P3zGqbThBLsT_C1-Flw9co6H5UJvqypNvBQm_gQMP9dmCexb550xQv5vrOXEb2oW_KWdp27pGieKOwVhqFTzgdNQbSkOcFpQDDoVI1EGntKhPU-pbdmpTayfQFIgHMkshhH2xr1SICmD2Tw-DXsgUiOVOjBOTq5gtPshiqDY3LyBu_l5OvgO8w",
+    "cache-control": "no-cache",
+    "content-length": "0",
+    "host": "api.opalpolicy.com",
+    "origin": "https://app.opalpolicy.com",
+    "pragma": "no-cache",
+    "referer": "https://app.opalpolicy.com/",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:87.0) Gecko/20100101 Firefox/87.0",
+    "x-amzn-trace-id": "Root=1-6074db84-1b3461347505b24763b39a31",
+    "x-forwarded-for": "165.225.115.100",
+    "x-forwarded-port": "443",
+    "x-forwarded-proto": "https"
+  },
+  "requestContext": {
+    "accountId": "377258293252",
+    "apiId": "9kc4yptsm5",
+    "authorizer": {
+      "jwt": {
+        "claims": {
+          "aud": "[dev.opal.api https://opal-dev.au.auth0.com/userinfo]",
+          "azp": "brkYdfxfLk1zUDneAevXyZJ0mR6Ai2bH",
+          "exp": "1618279704",
+          "https://opal.ns/account_no": "100368421",
+          "iat": "1618271104",
+          "iss": "https://opal-dev.au.auth0.com/",
+          "scope": "openid profile email account:admin",
+          "sub": "auth0|5ff1703b92776000710db65d"
+        },
+        "scopes": [
+          "openid",
+          "profile",
+          "email",
+          "account:admin"
+        ]
+      }
+    },
+    "domainName": "api.opalpolicy.com",
+    "domainPrefix": "api",
+    "http": {
+      "method": "GET",
+      "path": "/v1/instances/opa-100368421",
+      "protocol": "HTTP/1.1",
+      "sourceIp": "165.225.115.100",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:87.0) Gecko/20100101 Firefox/87.0"
+    },
+    "requestId": "dsc8yj8pSwMEP3g=",
+    "routeKey": "GET /v1/instances/{proxy+}",
+    "stage": "$default",
+    "time": "12/Apr/2021:23:45:08 +0000",
+    "timeEpoch": 1618271108939
+  },
+  "pathParameters": {
+    "proxy": "opa-100368421"
+  },
+  "isBase64Encoded": false
+}

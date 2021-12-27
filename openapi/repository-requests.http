@@ -1,0 +1,2 @@
+GET https://api.openpolicy.cloud/repository/v1/bundles
+Authorization: Bearer {{access_token}}

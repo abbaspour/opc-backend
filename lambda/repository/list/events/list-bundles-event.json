@@ -1,0 +1,83 @@
+{
+  "resource": "/v1/bundles",
+  "path": "/v1/bundles",
+  "httpMethod": "GET",
+  "headers": {
+    "accept": "*/*",
+    "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik8xN1c1MVQ2V1BGaUhLMUU4R3ZzcyJ9.eyJodHRwczovL29wYWwubnMvYWNjb3VudF9ubyI6MTAwMzY4NDIxLCJpc3MiOiJodHRwczovL29wYWwtZGV2LmF1LmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw1ZmU0MzViNWNiYmM4NTAwNmIwNzFlYmEiLCJhdWQiOiJkZXYub3BhbC5hcGkiLCJpYXQiOjE2MTU2ODE0MzYsImV4cCI6MTYxNTY5MDAzNiwiYXpwIjoiRlQ2VE1qZkhJMmxreGpwQWJHNXRDakVkaUVreXZNQ0EiLCJzY29wZSI6InJlYWQ6cG9saWNpZXMiLCJndHkiOiJwYXNzd29yZCJ9.uKVg4uWHrYxRRP7OAuqqtYhzQ7-OjYWAoz3d_g7FfzlHQ9iNJxTAUJDt9GLH_B5FnDVlEbxlK10IQw1LUGGVISRF55BHunH-duFBvmlO0Yv_HeLub-rPcDTBo0r7INDyt8KGs4NYMpj9tiwqV7bSEggt_DcP1gjU2aDZavmy3k6cdxEP-rt1kTjGXxLsLOA_3XkfJa5D6bF38LBqMFlJ_NnVvZ_A1VGPbH4pF4S1RdZP8NWBstyrgXRmDcgIeJSQldN8WfjyVc7Yc3q4FC2XZt17kyLt9Va0fi02rN301sSLD0rKXWnK_ARl2iV8Y_eSiF-Uj7LVXYL_ZpSIxEryQA",
+    "Host": "repo.opalpolicy.com",
+    "User-Agent": "curl/7.64.1",
+    "X-Amzn-Trace-Id": "Root=1-604d5ae4-5bee0e4a08f8ea9d59baa1bb",
+    "X-Forwarded-For": "115.130.20.10",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https"
+  },
+  "multiValueHeaders": {
+    "accept": [
+      "*/*"
+    ],
+    "Authorization": [
+      "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik8xN1c1MVQ2V1BGaUhLMUU4R3ZzcyJ9.eyJodHRwczovL29wYWwubnMvYWNjb3VudF9ubyI6MTAwMzY4NDIxLCJpc3MiOiJodHRwczovL29wYWwtZGV2LmF1LmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw1ZmU0MzViNWNiYmM4NTAwNmIwNzFlYmEiLCJhdWQiOiJkZXYub3BhbC5hcGkiLCJpYXQiOjE2MTU2ODE0MzYsImV4cCI6MTYxNTY5MDAzNiwiYXpwIjoiRlQ2VE1qZkhJMmxreGpwQWJHNXRDakVkaUVreXZNQ0EiLCJzY29wZSI6InJlYWQ6cG9saWNpZXMiLCJndHkiOiJwYXNzd29yZCJ9.uKVg4uWHrYxRRP7OAuqqtYhzQ7-OjYWAoz3d_g7FfzlHQ9iNJxTAUJDt9GLH_B5FnDVlEbxlK10IQw1LUGGVISRF55BHunH-duFBvmlO0Yv_HeLub-rPcDTBo0r7INDyt8KGs4NYMpj9tiwqV7bSEggt_DcP1gjU2aDZavmy3k6cdxEP-rt1kTjGXxLsLOA_3XkfJa5D6bF38LBqMFlJ_NnVvZ_A1VGPbH4pF4S1RdZP8NWBstyrgXRmDcgIeJSQldN8WfjyVc7Yc3q4FC2XZt17kyLt9Va0fi02rN301sSLD0rKXWnK_ARl2iV8Y_eSiF-Uj7LVXYL_ZpSIxEryQA"
+    ],
+    "Host": [
+      "repo.opalpolicy.com"
+    ],
+    "User-Agent": [
+      "curl/7.64.1"
+    ],
+    "X-Amzn-Trace-Id": [
+      "Root=1-604d5ae4-5bee0e4a08f8ea9d59baa1bb"
+    ],
+    "X-Forwarded-For": [
+      "115.130.20.10"
+    ],
+    "X-Forwarded-Port": [
+      "443"
+    ],
+    "X-Forwarded-Proto": [
+      "https"
+    ]
+  },
+  "queryStringParameters": null,
+  "multiValueQueryStringParameters": null,
+  "pathParameters": null,
+  "stageVariables": null,
+  "requestContext": {
+    "resourceId": "bbym6q",
+    "authorizer": {
+      "prefix": "100368421/bundles/",
+      "principalId": "*",
+      "integrationLatency": 588,
+      "account_no": "100368421"
+    },
+    "resourcePath": "/v1/bundles",
+    "httpMethod": "GET",
+    "extendedRequestId": "cJsjqEwISwMF3Dw=",
+    "requestTime": "14/Mar/2021:00:37:56 +0000",
+    "path": "/v1/bundles",
+    "accountId": "377258293252",
+    "protocol": "HTTP/1.1",
+    "stage": "stg",
+    "domainPrefix": "repo",
+    "requestTimeEpoch": 1615682276163,
+    "requestId": "15faf17e-200e-45c2-a4da-33d15752b96b",
+    "identity": {
+      "cognitoIdentityPoolId": null,
+      "accountId": null,
+      "cognitoIdentityId": null,
+      "caller": null,
+      "sourceIp": "115.130.20.10",
+      "principalOrgId": null,
+      "accessKey": null,
+      "cognitoAuthenticationType": null,
+      "cognitoAuthenticationProvider": null,
+      "userArn": null,
+      "userAgent": "curl/7.64.1",
+      "user": null
+    },
+    "domainName": "repo.opalpolicy.com",
+    "apiId": "4r8askvk0a"
+  },
+  "body": null,
+  "isBase64Encoded": false
+}

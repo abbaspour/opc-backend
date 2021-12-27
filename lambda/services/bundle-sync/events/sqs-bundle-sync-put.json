@@ -1,0 +1,21 @@
+{
+  Records: [
+    {
+      messageId: '215fe674-f143-4613-b087-ce8df44c102f',
+      receiptHandle: 'AQEBxoc3fKx1FLTvDjUkpecdyllI7Dz5dJpDpsVcD7ARVm9LyLMwCZZJSGoLAa98fjW6yB5q6g05L7E5nEiT16Q9aeFkpDogN5Ne06LXnq4J4HIs2/KgZqxRlpW6b9wSWMOK4+sKB7rg5xcX4c8z7ETheBriIcWZ586FJSrA3wJ8a5cCIWm6Fdj1Vb0fXTkDrYtCm6L7PAx5HFAuGBACFizBa9EIDBB4Bqm6BNQK99Q4xfHFZOSlTilMaHOelCK1+n4lpo5gs3Pye1QNagXJeakGe0swrHRLvnapjVFfjoyYQF742BGysQjGD9C8yHOp8VTGkX55Sqb0kX+Nq1H+p3zy+/7187Faq46wKgku4reA2BNr6E/HmGsZa5IreD9bZZ0Yf8z4ZcI/JZBqjqmLbZF6eA==',
+      body: '{"method"="POST", "account_no":100368421, "bundle":"bundle.tar.gz", "content":"other"}',
+      attributes: {
+        ApproximateReceiveCount: '1',
+        AWSTraceHeader: 'Root=1-608ca0db-0b8339144a0ae9e72a705192;Sampled=0',
+        SentTimestamp: '1619828955978',
+        SenderId: 'AROAVPVSYXACILJ6NLAEJ:BackplaneAssumeRoleSession',
+        ApproximateFirstReceiveTimestamp: '1619828956002'
+      },
+      messageAttributes: {},
+      md5OfBody: 'bde111b77bf0fdc21828eeb7a939674b',
+      eventSource: 'aws:sqs',
+      eventSourceARN: 'arn:aws:sqs:ap-southeast-2:377258293252:bundle-sync-queue',
+      awsRegion: 'ap-southeast-2'
+    }
+  ]
+}

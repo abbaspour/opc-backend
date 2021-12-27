@@ -1,0 +1,16 @@
+## Raise a GraphQL field error in case of a datasource invocation error
+#if($ctx.error)
+    $util.error($ctx.error.message, $ctx.error.type)
+#end
+## if the response is of xml type return a json representation return the body **
+#if($ctx.result.statusCode == 200)
+    ## If response is 200, return the body.
+    ## #set ($map = $utils.xml.toMap($ctx.result.body))
+    ## #set ($inp = $map.ListBucketResult)
+    ## $util.toJson($inp.Contents)
+    $ctx.result.body
+#else
+    ## If response is not 200, append the response to error block.
+    $utils.appendError($ctx.result.body, "$ctx.result.statusCode")
+#end
+

@@ -1,0 +1,102 @@
+{
+  "version": "1.0",
+  "resource": "/v1/account",
+  "path": "/v1/account",
+  "httpMethod": "POST",
+  "headers": {
+    "Content-Length": "0",
+    "Content-Type": "application/x-www-form-urlencoded",
+    "Host": "9kc4yptsm5.execute-api.ap-southeast-2.amazonaws.com",
+    "User-Agent": "curl/7.64.1",
+    "X-Amzn-Trace-Id": "Root=1-5ff9740f-0a09d9146ec5b6af3e512836",
+    "X-Forwarded-For": "165.225.114.156",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https",
+    "accept": "*/*",
+    "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik8xN1c1MVQ2V1BGaUhLMUU4R3ZzcyJ9.eyJpc3MiOiJodHRwczovL29wYWwtZGV2LmF1LmF1dGgwLmNvbS8iLCJzdWIiOiJ2djMxSVFIVnAySk9iQXJzUzR0OWJuV3R4UDNmYk5EbkBjbGllbnRzIiwiYXVkIjoiZGV2Lm9wYWwuYWRtaW4iLCJpYXQiOjE2MTAxODMxNTIsImV4cCI6MTYxMDE5MTc1MiwiYXpwIjoidnYzMUlRSFZwMkpPYkFyc1M0dDlibld0eFAzZmJORG4iLCJzY29wZSI6ImNyZWF0ZTphY2NvdW50IiwiZ3R5IjoiY2xpZW50LWNyZWRlbnRpYWxzIn0.bStLSuW5f3J2maUxtqCOTpcY8MmuQCfH-rHRnVB8Sb5XX1c2IxXpN3B4a3gzM8uFZP0yhVPMD0TzCBFNwqcfZ-jaAoQu9kZHhTXtcC3su5Ej3lrtZaHoMQjh-LwcAsDjpmLvqKXDHaPQ9gXyMyDCvz4gxI6r2VnLa5x-KEF1PgAeoS-0NrHja_3PWNFGqckoGYHTH0jRdcvd6ti1oG2txSahBsv5V_9OAJ8aMcCtXlmijQHEm60CH8QbqG9vUuk6Aqwv6rdHEdM6X1N6srmqD3OJh8eBklU1M8xirREeIuaDjjwDMIvvjahrkdvWNAetnD9pnni66ZYtn9hj2sW4xA"
+  },
+  "multiValueHeaders": {
+    "Content-Length": [
+      "0"
+    ],
+    "Content-Type": [
+      "application/x-www-form-urlencoded"
+    ],
+    "Host": [
+      "9kc4yptsm5.execute-api.ap-southeast-2.amazonaws.com"
+    ],
+    "User-Agent": [
+      "curl/7.64.1"
+    ],
+    "X-Amzn-Trace-Id": [
+      "Root=1-5ff9740f-0a09d9146ec5b6af3e512836"
+    ],
+    "X-Forwarded-For": [
+      "165.225.114.156"
+    ],
+    "X-Forwarded-Port": [
+      "443"
+    ],
+    "X-Forwarded-Proto": [
+      "https"
+    ],
+    "accept": [
+      "*/*"
+    ],
+    "authorization": [
+      "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik8xN1c1MVQ2V1BGaUhLMUU4R3ZzcyJ9.eyJpc3MiOiJodHRwczovL29wYWwtZGV2LmF1LmF1dGgwLmNvbS8iLCJzdWIiOiJ2djMxSVFIVnAySk9iQXJzUzR0OWJuV3R4UDNmYk5EbkBjbGllbnRzIiwiYXVkIjoiZGV2Lm9wYWwuYWRtaW4iLCJpYXQiOjE2MTAxODMxNTIsImV4cCI6MTYxMDE5MTc1MiwiYXpwIjoidnYzMUlRSFZwMkpPYkFyc1M0dDlibld0eFAzZmJORG4iLCJzY29wZSI6ImNyZWF0ZTphY2NvdW50IiwiZ3R5IjoiY2xpZW50LWNyZWRlbnRpYWxzIn0.bStLSuW5f3J2maUxtqCOTpcY8MmuQCfH-rHRnVB8Sb5XX1c2IxXpN3B4a3gzM8uFZP0yhVPMD0TzCBFNwqcfZ-jaAoQu9kZHhTXtcC3su5Ej3lrtZaHoMQjh-LwcAsDjpmLvqKXDHaPQ9gXyMyDCvz4gxI6r2VnLa5x-KEF1PgAeoS-0NrHja_3PWNFGqckoGYHTH0jRdcvd6ti1oG2txSahBsv5V_9OAJ8aMcCtXlmijQHEm60CH8QbqG9vUuk6Aqwv6rdHEdM6X1N6srmqD3OJh8eBklU1M8xirREeIuaDjjwDMIvvjahrkdvWNAetnD9pnni66ZYtn9hj2sW4xA"
+    ]
+  },
+  "queryStringParameters": null,
+  "multiValueQueryStringParameters": null,
+  "requestContext": {
+    "accountId": "377258293252",
+    "apiId": "9kc4yptsm5",
+    "authorizer": {
+      "claims": {
+        "aud": "dev.opal.admin",
+        "azp": "vv31IQHVp2JObArsS4t9bnWtxP3fbNDn",
+        "exp": "1610191752",
+        "gty": "client-credentials",
+        "iat": "1610183152",
+        "iss": "https://opal-dev.au.auth0.com/",
+        "scope": "create:account",
+        "sub": "vv31IQHVp2JObArsS4t9bnWtxP3fbNDn@clients"
+      },
+      "scopes": [
+        "create:account"
+      ]
+    },
+    "domainName": "9kc4yptsm5.execute-api.ap-southeast-2.amazonaws.com",
+    "domainPrefix": "9kc4yptsm5",
+    "extendedRequestId": "Y38SejOSywMEJ-g=",
+    "httpMethod": "POST",
+    "identity": {
+      "accessKey": null,
+      "accountId": null,
+      "caller": null,
+      "cognitoAmr": null,
+      "cognitoAuthenticationProvider": null,
+      "cognitoAuthenticationType": null,
+      "cognitoIdentityId": null,
+      "cognitoIdentityPoolId": null,
+      "principalOrgId": null,
+      "sourceIp": "165.225.114.156",
+      "user": null,
+      "userAgent": "curl/7.64.1",
+      "userArn": null
+    },
+    "path": "/v1/account",
+    "protocol": "HTTP/1.1",
+    "requestId": "Y38SejOSywMEJ-g=",
+    "requestTime": "09/Jan/2021:09:14:55 +0000",
+    "requestTimeEpoch": 1610183695787,
+    "resourceId": "POST /v1/account",
+    "resourcePath": "/v1/account",
+    "stage": "$default"
+  },
+  "pathParameters": null,
+  "stageVariables": null,
+  "body": null,
+  "isBase64Encoded": false
+}

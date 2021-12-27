@@ -1,0 +1,30 @@
+{
+  "example": {
+    "discovery": {
+      "bundles": {
+        "p1": {
+          "service": "s3",
+          "resource": "bundle/bundle.tar.gz",
+          "polling" : {
+            "min_delay_seconds": 300,
+            "max_delay_seconds": 360
+          }
+        }
+      },
+      "status": {
+        "service": "s3",
+        "partition_name": "status",
+        "console": true
+      },
+      "decision_logs" : {
+        "service": "s3",
+        "partition_name": "decision_logs",
+        "console": true,
+        "reporting" : {
+          "min_delay_seconds" : 3600,
+          "max_delay_seconds" : 7200
+        }
+      }
+    }
+  }
+}

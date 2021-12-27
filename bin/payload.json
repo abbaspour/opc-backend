@@ -1,0 +1,11 @@
+{
+  "input": {
+    "user": "user1",
+    "path": [
+      "finance",
+      "salary",
+      "alice"
+    ],
+    "method": "GET"
+  }
+}

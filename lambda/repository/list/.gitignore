@@ -1,0 +1,5 @@
+dist
+js
+package-lock.json
+.*-uploaded
+.*-released

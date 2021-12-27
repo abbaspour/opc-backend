@@ -1,0 +1,26 @@
+type Bundle {
+    name: String!
+    lastModified: String
+    etag: String
+    size: Int!
+}
+
+type Policy {
+    name: String!
+    lastModified: String
+    etag: String
+    size: Int!
+    #Key: String!
+    #LastModified: String
+    #ETag: String
+    #Size: Int
+}
+
+type Query {
+    listPolicies: [Policy]!
+    listBundles: [Bundle]!
+}
+
+schema {
+    query: Query
+}

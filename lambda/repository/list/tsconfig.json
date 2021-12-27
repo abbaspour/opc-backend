@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "es2019",
+    "lib": [
+      "es2020",
+      "dom"
+    ],
+    "strict": true,
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "outDir": "./js",
+    "sourceMap": true
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}

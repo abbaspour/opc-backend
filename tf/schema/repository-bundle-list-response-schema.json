@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "https://openpolicy.cloud/schema/repositopry/bundle/list.json",
+  "type": "array",
+  "title": "repository-bundle listing schema",
+  "description": "repository-bundle listing schema.",
+  "default": [],
+  "additionalItems": true,
+  "items": {
+    "id": "#/items",
+    "type": "object",
+    "title": "BundleItem",
+    "description": "bundle item.",
+    "default": {},
+    "required": [
+      "name",
+      "lastModified",
+      "etag",
+      "size"
+    ],
+    "properties": {
+      "name": {
+        "id": "#/items/properties/name",
+        "type": "string",
+        "title": "name",
+        "description": "bundle name.",
+        "default": ""
+      },
+      "lastModified": {
+        "id": "#/items/properties/lastModified",
+        "type": "string",
+        "title": "lastModified",
+        "description": "bundle lastModified date.",
+        "default": ""
+      },
+      "etag": {
+        "id": "#/items/properties/etag",
+        "type": "string",
+        "title": "etag",
+        "description": "bundle file etag.",
+        "default": ""
+      },
+      "size": {
+        "id": "#/items/properties/size",
+        "type": "integer",
+        "title": "size",
+        "description": "bundle file size of bytes.",
+        "default": 0
+      }
+    },
+    "additionalProperties": true
+  }
+}

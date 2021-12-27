@@ -1,0 +1,56 @@
+{
+  "version": "2.0",
+  "routeKey": "POST /v1/instances/start",
+  "rawPath": "/v1/instances/start",
+  "rawQueryString": "",
+  "headers": {
+    "accept": "*/*",
+    "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik8xN1c1MVQ2V1BGaUhLMUU4R3ZzcyJ9.eyJodHRwczovL29wYWwubnMvYWNjb3VudF9ubyI6MTAwMzY4NDIxLCJpc3MiOiJodHRwczovL29wYWwtZGV2LmF1LmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2MDg1ZGZhMDEzMDUzMjAwNzBiYzQxMDEiLCJhdWQiOiJkZXYub3BhbC5hcGkiLCJpYXQiOjE2MjA4MDAxNjYsImV4cCI6MTYyMDgwODc2NiwiYXpwIjoiRlQ2VE1qZkhJMmxreGpwQWJHNXRDakVkaUVreXZNQ0EiLCJzY29wZSI6InJlYWQ6aW5zdGFuY2VzIGdldDpkYXRhIHJlYWQ6cG9saWNpZXMiLCJndHkiOiJwYXNzd29yZCJ9.BNUt_3qlcMrUHb1pXHFKldD4ScMUfdSJRktBX6ZkTDgbwF0Y9LRfQYun0TgFojT_IEssRz41LTcjpDid2SKXPGp8HIJ03ZpNdL66AtfEW-1oK-z0Vfd7nrJyMLrALuTTMvh9KxjSJM9-2XwZBNUC710uH6PAeDeXDvhD4J6P7AYSSWn76ESX4F0jewx9MqLtm8jlzbzZpq0lz1Wc_N2LJjm5hmoilMdL1pW_4JbhVp2Rg5UlUqYBbz4l_HKgjwFLmkXkLW6umOP6TvOBPdNq7jI8qbyn21BTSauaOyv17WPucMN4OrcdpsTFbyx4uuKP0mNJZ8U5LrXQATz8aYRyPw",
+    "content-length": "0",
+    "host": "api.opalpolicy.com",
+    "user-agent": "curl/7.64.1",
+    "x-amzn-trace-id": "Root=1-609b73af-4c796f8e5359a48f1694c19f",
+    "x-forwarded-for": "115.130.130.206",
+    "x-forwarded-port": "443",
+    "x-forwarded-proto": "https"
+  },
+  "requestContext": {
+    "accountId": "377258293252",
+    "apiId": "9kc4yptsm5",
+    "authorizer": {
+      "jwt": {
+        "claims": {
+          "aud": "dev.opal.api",
+          "azp": "FT6TMjfHI2lkxjpAbG5tCjEdiEkyvMCA",
+          "exp": "1620808766",
+          "gty": "password",
+          "https://opal.ns/account_no": "100368421",
+          "iat": "1620800166",
+          "iss": "https://opal-dev.au.auth0.com/",
+          "scope": "read:instances get:data read:policies",
+          "sub": "auth0|6085dfa01305320070bc4101"
+        },
+        "scopes": [
+          "read:instances",
+          "get:data",
+          "read:policies"
+        ]
+      }
+    },
+    "domainName": "api.opalpolicy.com",
+    "domainPrefix": "api",
+    "http": {
+      "method": "POST",
+      "path": "/v1/instances/start",
+      "protocol": "HTTP/1.1",
+      "sourceIp": "115.130.130.206",
+      "userAgent": "curl/7.64.1"
+    },
+    "requestId": "fM8DYhS-ywMEPvQ=",
+    "routeKey": "POST /v1/instances/start",
+    "stage": "$default",
+    "time": "12/May/2021:06:20:31 +0000",
+    "timeEpoch": 1620800431175
+  },
+  "isBase64Encoded": false
+}

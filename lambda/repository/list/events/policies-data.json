@@ -1,0 +1,38 @@
+{
+  "$metadata": {
+    "httpStatusCode": 200,
+    "extendedRequestId": "TTLtncS3zXWIwoybPwFl7GOZgSdAbU59m4fQ6sJRTtMdIjLYShUhgsagcj4cXTaizQk2I3lKfLo=",
+    "attempts": 1,
+    "totalRetryDelay": 0
+  },
+  "CommonPrefixes": [
+    {
+      "Prefix": "100368421/policies/my/"
+    },
+    {
+      "Prefix": "100368421/policies/opa/"
+    }
+  ],
+  "Contents": [
+    {
+      "Key": "100368421/policies/",
+      "LastModified": "2021-03-06T07:14:38.000Z",
+      "ETag": "\"d41d8cd98f00b204e9800998ecf8427e\"",
+      "Size": 0,
+      "StorageClass": "STANDARD"
+    },
+    {
+      "Key": "100368421/policies/sample-policy.rego",
+      "LastModified": "2021-03-19T01:37:16.000Z",
+      "ETag": "\"9f164c880f2e42902e6a45e14ba60c92\"",
+      "Size": 243,
+      "StorageClass": "STANDARD"
+    }
+  ],
+  "Delimiter": "/",
+  "IsTruncated": false,
+  "Marker": "",
+  "MaxKeys": 1000,
+  "Name": "opal-policy-dev",
+  "Prefix": "100368421/policies/"
+}

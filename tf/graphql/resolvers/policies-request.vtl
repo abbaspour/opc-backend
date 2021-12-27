@@ -1,0 +1,11 @@
+{
+    "version": "2018-05-29",
+    "method": "GET",
+    "resourcePath": "/stg/v1/policies",
+    "params":{
+        "query": $util.toJson($ctx.args),
+        "headers": {
+            "authorization": "Bearer $ctx.request.headers.Authorization"
+        }
+    }
+}

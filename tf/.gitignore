@@ -1,0 +1,10 @@
+graph.*
+*.auto.tfvars
+.terraform.lock.hcl
+.terraform
+*-certificate.pem
+*-public_key.pem
+*.plan
+*.log
+terraform
+.graphqlconfig

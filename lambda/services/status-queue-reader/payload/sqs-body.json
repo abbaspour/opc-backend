@@ -1,0 +1,477 @@
+{
+  "params": {
+    "account_no": 100368421
+  },
+  "status": {
+    "labels": {
+      "id": "4d8e0aa8-af5b-4bdb-be58-cf138542ace3",
+      "version": "0.28.0"
+    },
+    "bundles": {
+      "root": {
+        "name": "root",
+        "last_successful_activation": "2021-04-29T00:55:45.4182576Z",
+        "last_successful_download": "2021-04-29T00:55:45.415393943Z",
+        "last_successful_request": "2021-04-29T00:55:45.415393943Z",
+        "last_request": "2021-04-29T00:55:45.415393943Z",
+        "metrics": {
+          "timer_rego_load_bundles_ns": 234915037,
+          "timer_rego_module_compile_ns": 781740,
+          "timer_rego_module_parse_ns": 90906
+        }
+      }
+    },
+    "metrics": {
+      "prometheus": {
+        "go_gc_duration_seconds": {
+          "name": "go_gc_duration_seconds",
+          "help": "A summary of the pause duration of garbage collection cycles.",
+          "type": 2,
+          "metric": [
+            {
+              "summary": {
+                "sample_count": 6,
+                "sample_sum": 3.28878E-4,
+                "quantile": [
+                  {
+                    "quantile": 0,
+                    "value": 2.1772E-5
+                  },
+                  {
+                    "quantile": 0.25,
+                    "value": 3.7799E-5
+                  },
+                  {
+                    "quantile": 0.5,
+                    "value": 5.3528E-5
+                  },
+                  {
+                    "quantile": 0.75,
+                    "value": 6.77E-5
+                  },
+                  {
+                    "quantile": 1,
+                    "value": 9.9833E-5
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "go_goroutines": {
+          "name": "go_goroutines",
+          "help": "Number of goroutines that currently exist.",
+          "type": 1,
+          "metric": [
+            {
+              "gauge": {
+                "value": 8
+              }
+            }
+          ]
+        },
+        "go_info": {
+          "name": "go_info",
+          "help": "Information about the Go environment.",
+          "type": 1,
+          "metric": [
+            {
+              "label": [
+                {
+                  "name": "version",
+                  "value": "go1.15.8"
+                }
+              ],
+              "gauge": {
+                "value": 1
+              }
+            }
+          ]
+        },
+        "go_memstats_alloc_bytes": {
+          "name": "go_memstats_alloc_bytes",
+          "help": "Number of bytes allocated and still in use.",
+          "type": 1,
+          "metric": [
+            {
+              "gauge": {
+                "value": 1905320
+              }
+            }
+          ]
+        },
+        "go_memstats_alloc_bytes_total": {
+          "name": "go_memstats_alloc_bytes_total",
+          "help": "Total number of bytes allocated, even if freed.",
+          "type": 0,
+          "metric": [
+            {
+              "counter": {
+                "value": 10573624
+              }
+            }
+          ]
+        },
+        "go_memstats_buck_hash_sys_bytes": {
+          "name": "go_memstats_buck_hash_sys_bytes",
+          "help": "Number of bytes used by the profiling bucket hash table.",
+          "type": 1,
+          "metric": [
+            {
+              "gauge": {
+                "value": 1447551
+              }
+            }
+          ]
+        },
+        "go_memstats_frees_total": {
+          "name": "go_memstats_frees_total",
+          "help": "Total number of frees.",
+          "type": 0,
+          "metric": [
+            {
+              "counter": {
+                "value": 147363
+              }
+            }
+          ]
+        },
+        "go_memstats_gc_cpu_fraction": {
+          "name": "go_memstats_gc_cpu_fraction",
+          "help": "The fraction of this program's available CPU time used by the GC since the program started.",
+          "type": 1,
+          "metric": [
+            {
+              "gauge": {
+                "value": 0.000008659053911355409
+              }
+            }
+          ]
+        },
+        "go_memstats_gc_sys_bytes": {
+          "name": "go_memstats_gc_sys_bytes",
+          "help": "Number of bytes used for garbage collection system metadata.",
+          "type": 1,
+          "metric": [
+            {
+              "gauge": {
+                "value": 5338856
+              }
+            }
+          ]
+        },
+        "go_memstats_heap_alloc_bytes": {
+          "name": "go_memstats_heap_alloc_bytes",
+          "help": "Number of heap bytes allocated and still in use.",
+          "type": 1,
+          "metric": [
+            {
+              "gauge": {
+                "value": 1905320
+              }
+            }
+          ]
+        },
+        "go_memstats_heap_idle_bytes": {
+          "name": "go_memstats_heap_idle_bytes",
+          "help": "Number of heap bytes waiting to be used.",
+          "type": 1,
+          "metric": [
+            {
+              "gauge": {
+                "value": 62218240
+              }
+            }
+          ]
+        },
+        "go_memstats_heap_inuse_bytes": {
+          "name": "go_memstats_heap_inuse_bytes",
+          "help": "Number of heap bytes that are in use.",
+          "type": 1,
+          "metric": [
+            {
+              "gauge": {
+                "value": 4399104
+              }
+            }
+          ]
+        },
+        "go_memstats_heap_objects": {
+          "name": "go_memstats_heap_objects",
+          "help": "Number of allocated objects.",
+          "type": 1,
+          "metric": [
+            {
+              "gauge": {
+                "value": 19571
+              }
+            }
+          ]
+        },
+        "go_memstats_heap_released_bytes": {
+          "name": "go_memstats_heap_released_bytes",
+          "help": "Number of heap bytes released to OS.",
+          "type": 1,
+          "metric": [
+            {
+              "gauge": {
+                "value": 61997056
+              }
+            }
+          ]
+        },
+        "go_memstats_heap_sys_bytes": {
+          "name": "go_memstats_heap_sys_bytes",
+          "help": "Number of heap bytes obtained from system.",
+          "type": 1,
+          "metric": [
+            {
+              "gauge": {
+                "value": 66617344
+              }
+            }
+          ]
+        },
+        "go_memstats_last_gc_time_seconds": {
+          "name": "go_memstats_last_gc_time_seconds",
+          "help": "Number of seconds since 1970 of last garbage collection.",
+          "type": 1,
+          "metric": [
+            {
+              "gauge": {
+                "value": 1.6196581174598198E9
+              }
+            }
+          ]
+        },
+        "go_memstats_lookups_total": {
+          "name": "go_memstats_lookups_total",
+          "help": "Total number of pointer lookups.",
+          "type": 0,
+          "metric": [
+            {
+              "counter": {
+                "value": 0
+              }
+            }
+          ]
+        },
+        "go_memstats_mallocs_total": {
+          "name": "go_memstats_mallocs_total",
+          "help": "Total number of mallocs.",
+          "type": 0,
+          "metric": [
+            {
+              "counter": {
+                "value": 166934
+              }
+            }
+          ]
+        },
+        "go_memstats_mcache_inuse_bytes": {
+          "name": "go_memstats_mcache_inuse_bytes",
+          "help": "Number of bytes in use by mcache structures.",
+          "type": 1,
+          "metric": [
+            {
+              "gauge": {
+                "value": 3472
+              }
+            }
+          ]
+        },
+        "go_memstats_mcache_sys_bytes": {
+          "name": "go_memstats_mcache_sys_bytes",
+          "help": "Number of bytes used for mcache structures obtained from system.",
+          "type": 1,
+          "metric": [
+            {
+              "gauge": {
+                "value": 16384
+              }
+            }
+          ]
+        },
+        "go_memstats_mspan_inuse_bytes": {
+          "name": "go_memstats_mspan_inuse_bytes",
+          "help": "Number of bytes in use by mspan structures.",
+          "type": 1,
+          "metric": [
+            {
+              "gauge": {
+                "value": 96968
+              }
+            }
+          ]
+        },
+        "go_memstats_mspan_sys_bytes": {
+          "name": "go_memstats_mspan_sys_bytes",
+          "help": "Number of bytes used for mspan structures obtained from system.",
+          "type": 1,
+          "metric": [
+            {
+              "gauge": {
+                "value": 131072
+              }
+            }
+          ]
+        },
+        "go_memstats_next_gc_bytes": {
+          "name": "go_memstats_next_gc_bytes",
+          "help": "Number of heap bytes when next garbage collection will take place.",
+          "type": 1,
+          "metric": [
+            {
+              "gauge": {
+                "value": 4194304
+              }
+            }
+          ]
+        },
+        "go_memstats_other_sys_bytes": {
+          "name": "go_memstats_other_sys_bytes",
+          "help": "Number of bytes used for other system allocations.",
+          "type": 1,
+          "metric": [
+            {
+              "gauge": {
+                "value": 489113
+              }
+            }
+          ]
+        },
+        "go_memstats_stack_inuse_bytes": {
+          "name": "go_memstats_stack_inuse_bytes",
+          "help": "Number of bytes in use by the stack allocator.",
+          "type": 1,
+          "metric": [
+            {
+              "gauge": {
+                "value": 491520
+              }
+            }
+          ]
+        },
+        "go_memstats_stack_sys_bytes": {
+          "name": "go_memstats_stack_sys_bytes",
+          "help": "Number of bytes obtained from system for stack allocator.",
+          "type": 1,
+          "metric": [
+            {
+              "gauge": {
+                "value": 491520
+              }
+            }
+          ]
+        },
+        "go_memstats_sys_bytes": {
+          "name": "go_memstats_sys_bytes",
+          "help": "Number of bytes obtained from system.",
+          "type": 1,
+          "metric": [
+            {
+              "gauge": {
+                "value": 74531840
+              }
+            }
+          ]
+        },
+        "go_threads": {
+          "name": "go_threads",
+          "help": "Number of OS threads created.",
+          "type": 1,
+          "metric": [
+            {
+              "gauge": {
+                "value": 8
+              }
+            }
+          ]
+        },
+        "http_request_duration_seconds": {
+          "name": "http_request_duration_seconds",
+          "help": "A histogram of duration for requests.",
+          "type": 4,
+          "metric": [
+            {
+              "label": [
+                {
+                  "name": "code",
+                  "value": "200"
+                },
+                {
+                  "name": "handler",
+                  "value": "index"
+                },
+                {
+                  "name": "method",
+                  "value": "get"
+                }
+              ],
+              "histogram": {
+                "sample_count": 30,
+                "sample_sum": 0.0013853869999999999,
+                "bucket": [
+                  {
+                    "cumulative_count": 0,
+                    "upper_bound": 1.0E-6
+                  },
+                  {
+                    "cumulative_count": 0,
+                    "upper_bound": 5.0E-6
+                  },
+                  {
+                    "cumulative_count": 0,
+                    "upper_bound": 1.0E-5
+                  },
+                  {
+                    "cumulative_count": 24,
+                    "upper_bound": 5.0E-5
+                  },
+                  {
+                    "cumulative_count": 30,
+                    "upper_bound": 1.0E-4
+                  },
+                  {
+                    "cumulative_count": 30,
+                    "upper_bound": 5.0E-4
+                  },
+                  {
+                    "cumulative_count": 30,
+                    "upper_bound": 0.001
+                  },
+                  {
+                    "cumulative_count": 30,
+                    "upper_bound": 0.01
+                  },
+                  {
+                    "cumulative_count": 30,
+                    "upper_bound": 0.1
+                  },
+                  {
+                    "cumulative_count": 30,
+                    "upper_bound": 1
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "plugins": {
+      "bundle": {
+        "state": "OK"
+      },
+      "decision_logs": {
+        "state": "NOT_READY"
+      },
+      "discovery": {
+        "state": "OK"
+      },
+      "status": {
+        "state": "OK"
+      }
+    }
+  }
+}
