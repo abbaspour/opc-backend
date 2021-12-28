@@ -5,8 +5,8 @@ set -eo pipefail
 declare -r DIR=$(dirname ${BASH_SOURCE[0]})
 
 
-declare AUTH0_SCOPE='openid profile email'
-declare AUTH0_CONNECTION='Username-Password-Authentication'
+declare AUTH0_SCOPE='read:instances get:data read:policies create:policy'
+declare AUTH0_CONNECTION='api-clients-db'
 
 function usage() {
     cat <<END >&2
@@ -34,10 +34,10 @@ END
     exit $1
 }
 
-declare AUTH0_DOMAIN=''
+declare AUTH0_DOMAIN='id.openpolicy.cloud'
 declare AUTH0_CLIENT_ID=''
 declare AUTH0_CLIENT_SECRET=''
-declare AUTH0_AUDIENCE=''
+declare AUTH0_AUDIENCE='opc.api'
 
 declare username=''
 declare password=''
@@ -54,7 +54,7 @@ while getopts "e:t:u:p:d:c:x:a:r:s:i:k:Amhv?" opt
 do
     case ${opt} in
         e) source ${OPTARG};;
-        t) AUTH0_DOMAIN=`echo ${OPTARG}.auth0.com | tr '@' '.'`;;
+        t) AUTH0_DOMAIN=$(echo ${OPTARG}.auth0.com | tr '@' '.');;
         u) username=${OPTARG};;
         p) password=${OPTARG};;
         d) AUTH0_DOMAIN=${OPTARG};;
