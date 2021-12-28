@@ -13,7 +13,7 @@
     "X-Forwarded-Port": "443",
     "X-Forwarded-Proto": "https",
     "accept": "*/*",
-    "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik8xN1c1MVQ2V1BGaUhLMUU4R3ZzcyJ9.eyJpc3MiOiJodHRwczovL29wYWwtZGV2LmF1LmF1dGgwLmNvbS8iLCJzdWIiOiJ2djMxSVFIVnAySk9iQXJzUzR0OWJuV3R4UDNmYk5EbkBjbGllbnRzIiwiYXVkIjoiZGV2Lm9wYWwuYWRtaW4iLCJpYXQiOjE2MTAxODMxNTIsImV4cCI6MTYxMDE5MTc1MiwiYXpwIjoidnYzMUlRSFZwMkpPYkFyc1M0dDlibld0eFAzZmJORG4iLCJzY29wZSI6ImNyZWF0ZTphY2NvdW50IiwiZ3R5IjoiY2xpZW50LWNyZWRlbnRpYWxzIn0.bStLSuW5f3J2maUxtqCOTpcY8MmuQCfH-rHRnVB8Sb5XX1c2IxXpN3B4a3gzM8uFZP0yhVPMD0TzCBFNwqcfZ-jaAoQu9kZHhTXtcC3su5Ej3lrtZaHoMQjh-LwcAsDjpmLvqKXDHaPQ9gXyMyDCvz4gxI6r2VnLa5x-KEF1PgAeoS-0NrHja_3PWNFGqckoGYHTH0jRdcvd6ti1oG2txSahBsv5V_9OAJ8aMcCtXlmijQHEm60CH8QbqG9vUuk6Aqwv6rdHEdM6X1N6srmqD3OJh8eBklU1M8xirREeIuaDjjwDMIvvjahrkdvWNAetnD9pnni66ZYtn9hj2sW4xA"
+    "authorization": "Bearer xxx.xxx.xxx"
   },
   "multiValueHeaders": {
     "Content-Length": [
@@ -44,7 +44,7 @@
       "*/*"
     ],
     "authorization": [
-      "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik8xN1c1MVQ2V1BGaUhLMUU4R3ZzcyJ9.eyJpc3MiOiJodHRwczovL29wYWwtZGV2LmF1LmF1dGgwLmNvbS8iLCJzdWIiOiJ2djMxSVFIVnAySk9iQXJzUzR0OWJuV3R4UDNmYk5EbkBjbGllbnRzIiwiYXVkIjoiZGV2Lm9wYWwuYWRtaW4iLCJpYXQiOjE2MTAxODMxNTIsImV4cCI6MTYxMDE5MTc1MiwiYXpwIjoidnYzMUlRSFZwMkpPYkFyc1M0dDlibld0eFAzZmJORG4iLCJzY29wZSI6ImNyZWF0ZTphY2NvdW50IiwiZ3R5IjoiY2xpZW50LWNyZWRlbnRpYWxzIn0.bStLSuW5f3J2maUxtqCOTpcY8MmuQCfH-rHRnVB8Sb5XX1c2IxXpN3B4a3gzM8uFZP0yhVPMD0TzCBFNwqcfZ-jaAoQu9kZHhTXtcC3su5Ej3lrtZaHoMQjh-LwcAsDjpmLvqKXDHaPQ9gXyMyDCvz4gxI6r2VnLa5x-KEF1PgAeoS-0NrHja_3PWNFGqckoGYHTH0jRdcvd6ti1oG2txSahBsv5V_9OAJ8aMcCtXlmijQHEm60CH8QbqG9vUuk6Aqwv6rdHEdM6X1N6srmqD3OJh8eBklU1M8xirREeIuaDjjwDMIvvjahrkdvWNAetnD9pnni66ZYtn9hj2sW4xA"
+      "Bearer xxx.xxx.xxx"
     ]
   },
   "queryStringParameters": null,

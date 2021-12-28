@@ -7,7 +7,7 @@
     "accept": "application/json",
     "accept-encoding": "gzip, deflate, br",
     "accept-language": "en-US,en;q=0.5",
-    "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik8xN1c1MVQ2V1BGaUhLMUU4R3ZzcyJ9.eyJodHRwczovL29wYWwubnMvYWNjb3VudF9ubyI6MTAwMzY4NDIxLCJpc3MiOiJodHRwczovL29wYWwtZGV2LmF1LmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw1ZmYxNzAzYjkyNzc2MDAwNzEwZGI2NWQiLCJhdWQiOlsiZGV2Lm9wYWwuYXBpIiwiaHR0cHM6Ly9vcGFsLWRldi5hdS5hdXRoMC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNjE4MjcxMTA0LCJleHAiOjE2MTgyNzk3MDQsImF6cCI6ImJya1lkZnhmTGsxelVEbmVBZXZYeVpKMG1SNkFpMmJIIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBhY2NvdW50OmFkbWluIn0.uQoECGyPoEJdwRwxfN48f6Z-LcubhAc1WvfvpFKmcIsTIsb9kMZAsfgfzJaaTwUZbEjsMHulCWRdV7b_kHqOINpPTanGWIOHZi3A9ivsUZrb5KhgMVDbnIeZ44rXe1MqT6t5onnTL_SpDR3txknrRWM9x_HAqiL6P3zGqbThBLsT_C1-Flw9co6H5UJvqypNvBQm_gQMP9dmCexb550xQv5vrOXEb2oW_KWdp27pGieKOwVhqFTzgdNQbSkOcFpQDDoVI1EGntKhPU-pbdmpTayfQFIgHMkshhH2xr1SICmD2Tw-DXsgUiOVOjBOTq5gtPshiqDY3LyBu_l5OvgO8w",
+    "authorization": "Bearer xxx.xxx.xxx",
     "cache-control": "no-cache",
     "content-length": "0",
     "host": "api.opalpolicy.com",

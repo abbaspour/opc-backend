@@ -6,7 +6,7 @@
   "httpMethod": "GET",
   "headers": {
     "accept": "*/*",
-    "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik8xN1c1MVQ2V1BGaUhLMUU4R3ZzcyJ9.eyJodHRwczovL29wYWwubnMvYWNjb3VudF9ubyI6MTAwMzY4NDIxLCJpc3MiOiJodHRwczovL29wYWwtZGV2LmF1LmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw1ZmU0MzViNWNiYmM4NTAwNmIwNzFlYmEiLCJhdWQiOiJkZXYub3BhbC5hcGkiLCJpYXQiOjE2MTM4NzAxODEsImV4cCI6MTYxMzg3ODc4MSwiYXpwIjoiRlQ2VE1qZkhJMmxreGpwQWJHNXRDakVkaUVreXZNQ0EiLCJzY29wZSI6ImdldDpkYXRhIHJlYWQ6cG9saWNpZXMgY3JlYXRlOnBvbGljeSIsImd0eSI6InBhc3N3b3JkIn0.Ncb9q9i3kGs6Rg-olr20AeFpPI2poISCQ-fCILUMwsD99PL7Xxt4UY5_0_xzreXWahcCxZFyZ8ucqGsKyBunBHK_3QenWddJPUT6xLJNnceY8Zhew7-K0s4m7SPkujW66PjjSnKiW3KZp3LoaDMWtny0OyZCvps1mwhhmPTVJ9IC0Va6OXjQoIW_faLzY6xMvFI8wTK1P83x1uCDNC_6FY3dSsmBaImsG0E3KBswFk_WrAVIofu4jFOB2O75t1L37a5KN-XUjQsHO_zHdv1UhiSop1yQc9MHoO_F6wLNZQEIJdNeMup5iY1--PTClZd8uWyfZ3JrnxaRYmbEsLr0-g",
+    "authorization": "Bearer xxx.xxx.xxx",
     "Host": "0vghplwa7g.execute-api.ap-southeast-2.amazonaws.com",
     "user-agent": "curl/7.64.1",
     "X-Amzn-Trace-Id": "Root=1-6031ce33-399febdc7b6baf9f5aca7a54",
@@ -19,7 +19,7 @@
       "*/*"
     ],
     "authorization": [
-      "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik8xN1c1MVQ2V1BGaUhLMUU4R3ZzcyJ9.eyJodHRwczovL29wYWwubnMvYWNjb3VudF9ubyI6MTAwMzY4NDIxLCJpc3MiOiJodHRwczovL29wYWwtZGV2LmF1LmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw1ZmU0MzViNWNiYmM4NTAwNmIwNzFlYmEiLCJhdWQiOiJkZXYub3BhbC5hcGkiLCJpYXQiOjE2MTM4NzAxODEsImV4cCI6MTYxMzg3ODc4MSwiYXpwIjoiRlQ2VE1qZkhJMmxreGpwQWJHNXRDakVkaUVreXZNQ0EiLCJzY29wZSI6ImdldDpkYXRhIHJlYWQ6cG9saWNpZXMgY3JlYXRlOnBvbGljeSIsImd0eSI6InBhc3N3b3JkIn0.Ncb9q9i3kGs6Rg-olr20AeFpPI2poISCQ-fCILUMwsD99PL7Xxt4UY5_0_xzreXWahcCxZFyZ8ucqGsKyBunBHK_3QenWddJPUT6xLJNnceY8Zhew7-K0s4m7SPkujW66PjjSnKiW3KZp3LoaDMWtny0OyZCvps1mwhhmPTVJ9IC0Va6OXjQoIW_faLzY6xMvFI8wTK1P83x1uCDNC_6FY3dSsmBaImsG0E3KBswFk_WrAVIofu4jFOB2O75t1L37a5KN-XUjQsHO_zHdv1UhiSop1yQc9MHoO_F6wLNZQEIJdNeMup5iY1--PTClZd8uWyfZ3JrnxaRYmbEsLr0-g"
+      "Bearer xxx.xxx.xxx"
     ],
     "Host": [
       "0vghplwa7g.execute-api.ap-southeast-2.amazonaws.com"
